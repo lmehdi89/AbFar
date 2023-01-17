@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="AbFar.exe" version="1.0.0.1" publicKeyToken="a521e568afec567a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AbFar" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AbFar.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="CrystalDecisions.CrystalReports.Engine" version="10.2.3600.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AbFar.exe" size="8896512">
+      <assemblyIdentity name="AbFar" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>0LrfKI3AEGOSsiIAk7iWkjK5+zE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.VisualBasic.PowerPacks.Printing.PrintForm.dll" size="29552">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Printing.PrintForm" version="1.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>41WXRz1IGIwd1RFxUFBCl0rkGgE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=HOSSEIN-PC\HOSSEIN" issuerKeyHash="6a4824ad168f9781e683291348c9f631dc98891d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Dchs7TlIv/GwInQmEpJc4mLwnCE=</DigestValue></Reference></SignedInfo><SignatureValue>Gg1komAZL5LtTVH0d7skEen8FKH9Yr0w9TH5euvpUbDFh9WmdYsoZgyNE/BMtaghbGHUgPkW/CmS4r/+6cEA1+LbU5ivz72Vpgs9YRMYiZbQfGRniSJdvNUcUpxJ5wACTvDlVoRAarok9IEBGwMPsaRkYoqtqCkCtet62TMEemk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>m/7PV0nOxHJ8uKAE5wWLGcfg3OXEFSDKliES7guyONoSW6ZO8w0vPuiQbZIs9GkuENh2FLaawWds1MPcsxBGySiT67EsHqM/sYVm67i0Mo10hIf1vV0XH7ktK86YovRTaF10LFfGOdHYTMW4sG6EHabjVdU4DjMvzZ2boea+2F8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="219cf062e25c9212267422b0f1bf4839ed6cc80d" Description="" Url=""><as:assemblyIdentity name="AbFar.exe" version="1.0.0.1" publicKeyToken="a521e568afec567a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HOSSEIN-PC\HOSSEIN</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>YFqUpG6VPhzwDN5OwiZmTfb9vBY=</DigestValue></Reference></SignedInfo><SignatureValue>T1MQDXyN9yi66tSe0x90rilb/McKZGz95I1xztZiyQs51iO7ut6lpYrHgtmhRtK1R+ejGCaeFWjs1n/+D+VqHeXYBhAho9g8Mq0mYqCsAYoN3oD+7n71ATTY/I1DP/cxMAeoUihU4rnTDeYF5D06Yf47nNjt3J3JijxZVmM/3kM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>m/7PV0nOxHJ8uKAE5wWLGcfg3OXEFSDKliES7guyONoSW6ZO8w0vPuiQbZIs9GkuENh2FLaawWds1MPcsxBGySiT67EsHqM/sYVm67i0Mo10hIf1vV0XH7ktK86YovRTaF10LFfGOdHYTMW4sG6EHabjVdU4DjMvzZ2boea+2F8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQawrOG31mKpFDUgt409ewrTANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQASABPAFMAUwBFAEkATgAtAFAAQwBcAEgATwBTAFMARQBJAE4wHhcNMTAxMDEzMTE0MzE3WhcNMTExMDEzMTc0MzE3WjAvMS0wKwYDVQQDHiQASABPAFMAUwBFAEkATgAtAFAAQwBcAEgATwBTAFMARQBJAE4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJv+z1dJzsRyfLigBOcFixnH4NzlxBUgypYhEu4LsjjaElumTvMNLz7okG2SLPRpLhDYdhS2msFnbNTD3LMQRskok+uxLB6jP7GFZuu4tDKNdISH9b1dFx+5LSvOmKL0U2hddCxXxjnR2EzFuLBuhB2m41XVOA4zL82dm6HmvthfAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEASuZwJA4AQYDcV9lmFrh6cuxBoy8bMli+F2t83VSSma6+oaYborFAJs+HM0A3rt4y2NTvsnw4OqQ4Xw308Ylewyu3Pf8SY26XPYeyDZa5dTLSlgyL4wlMCBbRQI5FCPdNn5+Fi5Atb0LpRFZTj5mE98Oz6E/DyxcAxbT6WuqdZjM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SHT", "SHT\SHT.vbproj", "{8F6C7383-68B1-4B47-A7A2-3553FA1B3A30}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RGC", "RGC\RGC.vdproj", "{6C4AABBE-03C1-489C-99FE-F9BE92126859}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F6C7383-68B1-4B47-A7A2-3553FA1B3A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F6C7383-68B1-4B47-A7A2-3553FA1B3A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F6C7383-68B1-4B47-A7A2-3553FA1B3A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F6C7383-68B1-4B47-A7A2-3553FA1B3A30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C4AABBE-03C1-489C-99FE-F9BE92126859}.Debug|Any CPU.ActiveCfg = Debug
+		{6C4AABBE-03C1-489C-99FE-F9BE92126859}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
